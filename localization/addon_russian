@@ -296,7 +296,7 @@
 	"ui_setup_hero_primary_tooltip_str"	"Сила英雄<br><br>Сила英雄拥有强健的体魄，受到负面效果的持续时间将会缩短"
 	"ui_setup_hero_primary_tooltip_agi"	"Ловкость英雄"
 	"ui_setup_hero_primary_tooltip_int"	"Интеллект英雄<br><br>Интеллект英雄对法术颇有研究，在释放技能的时候有几率触发多次施法"
-	"ui_setup_refresh_hero_tooltip"	"随机可选英雄，不会随机到随机过的英雄<br/><br/>通过PLUS、通行证等途径可获得刷新次数<br/><br/>当前可刷新 <font color='yellow'>{s:count}</font> 次"
+	"ui_setup_refresh_hero_tooltip"	"随机可选英雄，不会随机到随机过的英雄<br/><br/>通过PLUS、Пропуск等途径可获得刷新次数<br/><br/>当前可刷新 <font color='yellow'>{s:count}</font> 次"
 	"ui_setup_now_difficulty"	"当前难度：{s:value}"
 	"ui_setup_hero_attr_str"	"Сила"
 	"ui_setup_hero_attr_agi"	"Ловкость"
@@ -355,7 +355,7 @@
 	"ui_large_number_unit_2"	"亿"
 	"ui_popup_tooltip"	"【ESC】或【очков击任意位置】关闭弹窗"
 	"info_equip_faild_samename"	"同名装备只能装备一件"
-	"info_equip_faild_lvllimite"	"历练等级不足"
+	"info_equip_faild_лвлllimite"	"历练等级不足"
 	"item_drop_recyle_auto_hsjf"	"自动回收物品，获得{s:value}Очки сбора"
 	"item_drop_recyle_auto_gold"	"自动回收物品，获得{s:value}Золото"
 
@@ -548,7 +548,7 @@
 	"ui_equip_selection_title"	"请选择本局初始成长装备"
 	"ui_growequip_cannot_eat" "装备等级未满，不能吞噬"
 	"ui_growequip_eated" "只能吞噬一件装备"
-	"ui_growitem_tooltips" "再击杀{s:value}个升级到LV{s:level}"
+	"ui_growitem_tooltips" "再击杀{s:value}个升级到лвл{s:level}"
 	"ui_growitem_max_tooltips" "双击吞噬，每个人只能吞噬一件装备"
 
 
@@ -1244,17 +1244,17 @@
 	"ui_random_item_tooltip_recast_count"	"重铸次数：{s:count}"
 	"ui_random_item_tooltip_special_desc" "基础属性提升<font color='#e7e0b7'>{s:value}%</font><Panel class='AttrRange' />"
 	"ui_netequip_ability_level_title" "技能等级："
-	"ui_netequip_ability_level" "{s:lvl}"
+	"ui_netequip_ability_level" "{s:лвлl}"
 	"ui_netequip_refine_times_title" "洗练："
 	"ui_netequip_refine_times" "{s:refinetimes}/10"
 	"ui_netequip_recast_times_title" "重铸："
 	"ui_netequip_recast_times" "{s:recasttimes}/10"
 
-	"ui_netequip_special_lvl_1" "普通"
-	"ui_netequip_special_lvl_2" "星级"
-	"ui_netequip_special_lvl_3" "月级"
-	"ui_netequip_special_lvl_4" "恒星级"
-	"ui_netequip_special_lvl_5" "黑洞级"
+	"ui_netequip_special_лвлl_1" "普通"
+	"ui_netequip_special_лвлl_2" "星级"
+	"ui_netequip_special_лвлl_3" "月级"
+	"ui_netequip_special_лвлl_4" "恒星级"
+	"ui_netequip_special_лвлl_5" "黑洞级"
 
 	"ui_net_equip_quality_7" "SSS"
 	"ui_net_equip_quality_6" "SS"
@@ -1264,7 +1264,7 @@
 	"ui_net_equip_quality_2" "C"
 	"ui_net_equip_quality_1" "D"
 
-	"ui_netequip_enhance_lvl" "+{s:level}"
+	"ui_netequip_enhance_лвлl" "+{s:level}"
 
 	"ui_attribute_net_equips_title"	"存档装备"
 	"ui_attribute_net_equips_title_desc"	"存档装备永久存在，每局游戏都生效。"
@@ -1326,7 +1326,7 @@
 	"ui_net_equip_grade_1_cant_action"	"一阶存档装备不可强化！"
 
 	"ui_net_equip_enhance"	"装备强化"
-	"ui_net_equip_enhance_tooltip" "将装备拖至此界面后即可使用“强化石”对存档装备进行强化，提升装备属性<br><br>不同品阶的装备，可强化次数不同<br>强化石在<font color='gold'>难5及以上难度的非正常模式中会掉落</font>，也可通过通行证、商城等途径获得<br><br>强化石有品阶，只能使用和装备品阶一致的强化石进行强化。<br>低品阶的强化石可以4:1的比例抵扣高1阶的强化石"
+	"ui_net_equip_enhance_tooltip" "将装备拖至此界面后即可使用“强化石”对存档装备进行强化，提升装备属性<br><br>不同品阶的装备，可强化次数不同<br>强化石在<font color='gold'>难5及以上难度的非正常模式中会掉落</font>，也可通过Пропуск、商城等途径获得<br><br>强化石有品阶，只能使用和装备品阶一致的强化石进行强化。<br>低品阶的强化石可以4:1的比例抵扣高1阶的强化石"
 	"ui_net_equip_enhance_change_value_tooltip"	"装备属性提升比例"
 	"ui_net_equip_enhance_material_tooltip"	"强化材料<br>※需要使用和装备品阶一致的强化石作为材料<br>※强化时，如果对应品阶的强化石数量不足，会尝试使用低阶强化石进行抵扣。"
 	// "ui_net_equip_enhance_material_tooltip_grade"	"{s:grade}阶强化石"
@@ -1342,7 +1342,7 @@
 	"ui_net_equip_enhance_result_3"	"<Panel>数量不足"
 	"ui_net_equip_enhance_result_3_detail"	"可通过以下方式强化：<br>使用{s:count}个<Panel>强化"
 	"ui_net_equip_enhance_result_4"	"强化失败，<Panel>数量不足"
-	"ui_net_equip_enhance_result_4_detail"	"强化石可通过通行证、商城等途径获得"
+	"ui_net_equip_enhance_result_4_detail"	"强化石可通过Пропуск、商城等途径获得"
 		
 	"ui_net_equip_enhance_bonus_now"	"当前等级"
 	"ui_net_equip_enhance_bonus_next"	"下一等级"
@@ -1364,7 +1364,7 @@
 	"ui_net_equip_enhance2_button_enhance"	"精炼"
 	"ui_net_equip_enhance2_no_special_ability"	"<font color='red'>该存档装备没有特殊词条<br>不能进行精炼等操作！</font>"
 
-	"ui_net_equip_enhance2_tooltip" "将装备拖至此界面后即可使用“精炼石”对存档装备进行精炼，提升装备高级属性<br><br>不同品阶装备，可精炼次数不同<br>精炼石在<font color='gold'>难5及以上难度的非正常模式中会掉落</font>，也可通过通行证、商城等途径获得<br><br>精炼石有品阶，只能使用和装备品阶一致的精炼石进行强化。<br>低品阶的精炼石可以4:1的比例抵扣高1阶的精炼石"
+	"ui_net_equip_enhance2_tooltip" "将装备拖至此界面后即可使用“精炼石”对存档装备进行精炼，提升装备高级属性<br><br>不同品阶装备，可精炼次数不同<br>精炼石在<font color='gold'>难5及以上难度的非正常模式中会掉落</font>，也可通过Пропуск、商城等途径获得<br><br>精炼石有品阶，只能使用和装备品阶一致的精炼石进行强化。<br>低品阶的精炼石可以4:1的比例抵扣高1阶的精炼石"
 	"ui_net_equip_enhance2_material_tooltip"	"精炼材料<br>※需要使用和装备品阶一致的精炼石作为材料<br>※精炼时，如果对应品阶的精炼石数量不足，会尝试使用低阶精炼石进行抵扣。"
 	
 	"ui_net_equip_enhance2_chance_tooltip"	"精炼失败时会提升下次精炼的成功概率<br>※多次失败，概率叠加<br>※精炼成功，重置提升的概率</font>"
@@ -1378,7 +1378,7 @@
 	"ui_net_equip_enhance2_result_3"	"<Panel>数量不足"
 	"ui_net_equip_enhance2_result_3_detail"	"可通过以下方式精炼：<br>使用{s:count}个<Panel>精炼"
 	"ui_net_equip_enhance2_result_4"	"精炼失败，<Panel>数量不足"
-	"ui_net_equip_enhance2_result_4_detail"	"精炼石可通过通行证、商城等途径获得"
+	"ui_net_equip_enhance2_result_4_detail"	"精炼石可通过Пропуск、商城等途径获得"
 
 	//装备重铸
 	"ui_net_equip_recast_header_title"	"装备重铸"
@@ -1401,7 +1401,7 @@
 	"ui_net_equip_recast_result_3"	"<Panel>数量不足"
 	"ui_net_equip_recast_result_3_detail"	"可通过以下方式重铸：<br>使用{s:count}个<Panel>重铸"
 	"ui_net_equip_recast_result_4"	"重铸失败，<Panel>数量不足"
-	"ui_net_equip_recast_result_4_detail"	"重铸石可通过通行证、商城等途径获得"
+	"ui_net_equip_recast_result_4_detail"	"重铸石可通过Пропуск、商城等途径获得"
 	"ui_net_equip_recast_result_5"	"<font color='red'>装备已达到最高重铸次数（{s:count}）</font>"
 
 
@@ -1422,7 +1422,7 @@
 	"ui_net_equip_transfer_result_3"	"<Panel>数量不足"
 	"ui_net_equip_transfer_result_3_detail"	"可通过以下方式转移：<br>使用{s:count}个<Panel>转移"
 	"ui_net_equip_transfer_result_4"	"转移失败，<Panel>数量不足"
-	"ui_net_equip_transfer_result_4_detail"	"转移石可通过通行证、商城等途径获得"
+	"ui_net_equip_transfer_result_4_detail"	"转移石可通过Пропуск、商城等途径获得"
 	
 	//装备洗练
 	"ui_net_equip_refine_header_title"	"装备洗练"
@@ -1441,7 +1441,7 @@
 	"ui_net_equip_refine_result_3"	"<Panel>数量不足"
 	"ui_net_equip_refine_result_3_detail"	"可通过以下方式洗练：<br>使用{s:count}个<Panel>洗练"
 	"ui_net_equip_refine_result_4"	"洗练失败，<Panel>数量不足"
-	"ui_net_equip_refine_result_4_detail"	"洗练石在可通过通行证、商城等途径获得"
+	"ui_net_equip_refine_result_4_detail"	"洗练石在可通过Пропуск、商城等途径获得"
 	"ui_net_equip_refine_result_5"	"<font color='red'>装备已达到最高洗练次数（{s:count}）</font>"
 
 
@@ -1514,7 +1514,7 @@
 	"ui_personal_title_achivement"	"成就"
 	"ui_personal_title_warehouse"	"仓库"
 	"ui_personal_title_collection"	"图鉴"
-	"ui_personal_title_pass"	"通行证"
+	"ui_personal_title_pass"	"Пропуск"
 
 	"ui_personal_main_title_account"	"账户"
 	"ui_personal_main_title_vip"	"San.值"
@@ -1523,7 +1523,7 @@
 	"ui_personal_main_title_invite"	"邀请"
 	"ui_personal_main_title_email"	"邮件"
 	
-	"ui_personal_main_account_lvl"	"{s:lvl}"
+	"ui_personal_main_account_лвлl"	"{s:лвлl}"
 	"ui_personal_main_account_steamid"	"ID:{s:id}"
 
 	"ui_personal_main_account_charge"	"充值"
@@ -1543,7 +1543,7 @@
 	"game_zxj_desc" "诛仙决是302旗下的一款修仙类防守地图，欢迎下载体验"
 
 
-	"ui_personal_lvl_tooltip"	"会员等级"
+	"ui_personal_лвлl_tooltip"	"会员等级"
 	"ui_personal_point_tooltip"	"会员积分，充值获得，可用于兑换道具或商城抽奖"
 	"ui_personal_id_copy_tooltip"	"复制ID"
 	"ui_personal_charge_tooltip"	"获取Камень науки"
@@ -1575,7 +1575,7 @@
 	"ui_achivement_type_kill" "杀戮之路"
 	"ui_achivement_type_hidden" "隐藏成就"
 
-	"ui_achivement_difficulty_desc" "通关{s:lvl}"
+	"ui_achivement_difficulty_desc" "通关{s:лвлl}"
 	"ui_achivement_difficulty_mode_desc" "+{s:mode}模式"
 	"ui_personal_vip_level_howtoget" "一时氪一时爽，一直氪一直爽"
 
@@ -1592,8 +1592,8 @@
 	"ui_achievement_herotype_int" "Интеллект"
 	"ui_achievement_herotype_other" "其它"
 
-	"ui_achievement_hero_lvl" "Лвл {s:lvl}"
-	"ui_achievement_hero_adder_lvl" "当前等级：<font color=\"#dedede\">{s:lvl}</font>"
+	"ui_achievement_hero_лвлl" "Лвл {s:лвлl}"
+	"ui_achievement_hero_adder_лвлl" "当前等级：<font color=\"#dedede\">{s:лвлl}</font>"
 
 
 	"ui_achievement_hero_generalexp_tips" "Универсальный опыт героя，可用于提高英雄的熟练度"
@@ -1601,10 +1601,10 @@
 	"ui_achievement_hero_adder_title" "请输入要升级的"
 	"ui_general_exp_name" "通用经验"
 	"ui_achievement_hero_add_button" "确定"
-	"ui_achivement_hero_reward_desc" "等级{s:lvl}"
+	"ui_achivement_hero_reward_desc" "等级{s:лвлl}"
 	"ui_achievement_hero_reward_title" "成长奖励"
 	"ui_achievement_kill_reward_title"	"（{s:name}）杀戮等阶奖励"
-	"ui_achivement_kill_reward_desc"	"击杀{s:lvl}"
+	"ui_achivement_kill_reward_desc"	"击杀{s:лвлl}"
 	"ui_achivement_hidden_empty" "暂未解锁隐藏成就"
 
 	"reward_attribute_pm_detail"	"Основной атрибут：<font color=\"#e0e0e0\">+{s:value}</font>"
@@ -1618,7 +1618,7 @@
 	"ui_collection_type_game" "对局内野外Boss掉落<br><br>每局每个野外区域最多掉落五个Осколки，使用商城道具可以增加材料掉落数量"
 	"ui_collection_type_net" "N1 ~ N12存档Boss掉落<br><br>每局每个区域存档Boss最多掉落五个Осколки"
 	"ui_collection_type_net2" "N13 ~ N16存档Boss掉落<br><br>每局每个区域存档Boss掉落一个Осколки，使用商城道具可以增加材料掉落数量"
-	"ui_collection_type_lottery" "冒险钥匙抽奖中掉落"
+	"ui_collection_type_lottery" "Ключ от приключений抽奖中掉落"
 
 	//邀请码
 	"ui_invite_input_holder"	"请填写您的邀请码"
@@ -2572,124 +2572,124 @@
 	"store_shopmall_4_desc"	"В начале игры，Золото+500<br>Бонус к золоту +5%<br>Бонус к опыту +5%"
 
 	"store_shopmall_5"		"Убийственный набор"
-	"store_shopmall_5_desc"	"В начале игры，Кол-во убийств+100<br>Кол-во убийств收益+10%"
+	"store_shopmall_5_desc"	"В начале игры，Кол-во убийств+100<br>Доход от убийств +10%"
 
 	"store_shopmall_6"		"Пакет вторичной переработки"
-	"store_shopmall_6_desc"	"В начале игры，Очки сбора+20<br>Очки сбора收益+10%"
+	"store_shopmall_6_desc"	"В начале игры восстановленные очки +20<br>заработанные восстановленные очки +10%."
 
 	"store_shopmall_7"		"Пакет роста"
-	"store_shopmall_7_desc"	"В начале игры，Лотерейный билет+5<br>Все атрибуты+20%<br>奖励一个阿哈利姆魔晶лвл1"
+	"store_shopmall_7_desc"	"В начале игры，Лотерейный билет+5<br>Все атрибуты+20%<br>Награда: Кристалл Аганима 1 ур"
 
 	"store_shopmall_10"		"Пакет защиты"
-	"store_shopmall_10_desc"	"В начале игры奖励一本加护之书"
+	"store_shopmall_10_desc"	"Награждает Книгой Благословения в начале игры"
 
 	"store_shopmall_11"			"Подарочный набор"
-	"store_shopmall_11_desc"	"勇者进阶选择技能刷新次数+1<br>В начале игры奖励一个阿哈利姆魔晶лвл1"
+	"store_shopmall_11_desc"	"Храбрый продвинутый навык +1<br>В начале игры Награда: Кристалл Аганима 1 ур"
 
 	"store_shopmall_12"			"Подарочный набор"
-	"store_shopmall_12_desc"	"勇者进阶选择技能刷新次数+1<br>В начале игры奖励一个阿哈利姆魔晶Lv2"
+	"store_shopmall_12_desc"	"Храбрый продвинутый навык +1<br>В начале игры Магический кристалл Аганима 2 ур"
 
 	"store_shopmall_13"		"Простой ключ"
 	"store_shopmall_13_desc"	""
 
 
-	"store_shopmall_15"		"魔晶Осколки"
-	"store_shopmall_15_desc"	"刷新消耗一次魔晶Осколки，一局最多消耗10次"
+	"store_shopmall_15"		"Фрагменты волшебного кристалла"
+	"store_shopmall_15_desc"	"Обновление потребляет фрагмент магического кристалла, максимум 10 раз за раунд"
 
-	"store_shopmall_16"		"材料福佑"
-	"store_shopmall_16_desc"	"使用后，本局掉落掉落掉 1阶存档材料数量+50%"
+	"store_shopmall_16"		"Материальное благословение"
+	"store_shopmall_16_desc"	"После использования количество архивных материалов 1-го уровня в этом раунде будет уменьшено на 50%."
 
-	"store_shopmall_17"		"图鉴福佑"
-	"store_shopmall_17_desc"	"使用后，本局掉落掉落掉 1阶存档BOSS图鉴数量+50%"
+	"store_shopmall_17"		"Иллюстрация Благословение"
+	"store_shopmall_17_desc"	"После использования количество архивных иллюстраций БОССА 1 уровня +50% будет удалено в этом раунде"
 
-	"store_shopmall_18"		"装备福佑"
-	"store_shopmall_18_desc"	"使用后，野外1阶存档BOSS掉落装备品质提升+50%"
+	"store_shopmall_18"		"Благословение снаряжения"
+	"store_shopmall_18_desc"	"После использования качество снаряжения, выпадающего из полевого уровня 1 архива БОССА, повышается на +50%"
 
-	"store_shopmall_20"		"冒险钥匙"
-	"store_shopmall_20_desc"	"可用于开启宝藏，获得成长属性加成活着稀有道具"
+	"store_shopmall_20"		"Ключ от приключений"
+	"store_shopmall_20_desc"	"Можно использовать для открытия сокровищ, получения бонусов к атрибутам роста и редких предметов"
 
-	"store_shopmall_21"		"通行证"
+	"store_shopmall_21"		"Пропуск"
 	"store_shopmall_21_desc"	""
 
-	"store_shopmall_22"		"见习特权"
-	"store_shopmall_22_desc"	"基地血量上限+1<br>升级Все атрибуты+1<br>Очки сбора+10<br>每秒Золото+等级<br>出门随机一个C级装备"
+	"store_shopmall_22"		"Привилегии ученичества"
+	"store_shopmall_22_desc"	"Базовый предел HP +1<br>Улучшить все атрибуты +1<br>Очки сбора+10<br>Золото в секунду + уровень<br>Случайное снаряжение C-уровня при выходе"
 
-	"store_shopmall_23"		"荒野特权"
-	"store_shopmall_23_desc"	"基地血量上限+1<br>升级Все атрибуты+2<br>Очки сбора+20<br>初始给予一个D级加护<br>每秒Золото+等级<br>出门随机一个B级装备"
+	"store_shopmall_23"		"Привилегия дикой природы"
+	"store_shopmall_23_desc"	"Базовый предел HP +1<br>Улучшить все атрибуты +2<br>Очки сбора+20<br>Изначально дает благословение D-уровня.<br>Золото в секунду + уровень<br>Случайное снаряжение B-уровня при выходе"
 
-	"store_shopmall_24"		"蓝绶特权"
-	"store_shopmall_24_desc"	"基地血量上限+1<br>升级Все атрибуты+3<br>Очки сбора+30<br>物理伤害+10%<br>Магический урон+10%<br>每秒Золото+等级<br>出门随机一个A级装备"
+	"store_shopmall_24"		"Голубая лента"
+	"store_shopmall_24_desc"	"Базовый предел HP +1<br>Улучшить все атрибуты +3<br>Очки сбора+30<br>Физический урон +10%<br>Магический урон+10%<br>Золото в секунду + уровень<br>Случайное снаряжение A-уровня при выходе"
 
-	"store_shopmall_25"		"紫绶特权 "
-	"store_shopmall_25_desc"	"基地血量上限+1<br>升级Все атрибуты+4<br>Очки сбора+40<br>Пятиэлемент. коэф+4<br>初始给予一个C级加护<br>每秒Золото+等级<br>出门随机一个S级装备"
+	"store_shopmall_25"		"Привилегия пурпурной ленты "
+	"store_shopmall_25_desc"	"Базовый предел HP +1<br>Улучшить все атрибуты +4<br>Очки сбора+40<br>Пятиэлемент. коэф+4<br>Изначально дает благословение C-уровня.<br>Золото в секунду + уровень<br>Случайное снаряжение S-уровня при выходе"
 
-	"store_shopmall_26"		"高阶特权"
-	"store_shopmall_26_desc"	"基地血量上限+1<br>升级Все атрибуты+5<br>Очки сбора+50<br>Физ крит урон:+30%<br>Магический критический удар+30%<br>初始给予一个B级加护<br>每秒Золото+等级<br>出门随机一个SS级装备"
+	"store_shopmall_26"		"Расширенные привилегии"
+	"store_shopmall_26_desc"	"Базовый предел HP +1<br>Улучшить все атрибуты +5<br>Очки сбора+50<br>Физ крит урон:+30%<br>Магический критический удар+30%<br>Первоначально дает бонус к защите B-уровня<br>Золото в секунду + уровень<br>Случайное снаряжение SS-уровня при выходе"
 
-	"store_shopmall_27"		"殿堂特权"
-	"store_shopmall_27_desc"	"基地血量上限+1<br>升级Все атрибуты+6<br>Очки сбора+60<br>Шанс физ крит удара+5%<br>Шанс критического удара магией+5%<br>初始给予一个A级加护<br>每秒Золото+等级<br>出门随机一个SSS级装备"
+	"store_shopmall_27"		"Привилегии торгового центра"
+	"store_shopmall_27_desc"	"Базовый предел HP +1<br>Улучшить все атрибуты +6<br>Очки сбора+60<br>Шанс физ крит удара+5%<br>Шанс критического удара магией+5%<br>Изначально дает Благословение A-уровня.<br>Золото в секунду + уровень<br>Случайное снаряжение SSS-уровня при выходе"
 
-	"store_shopmall_28"		"皇Дом特权"
-	"store_shopmall_28_desc"	"基地血量上限+1<br>升级Все атрибуты+7<br>Очки сбора+70<br>Физ крит урон:+40%<br>Магический критический удар+40%<br>初始给予一个S级加护<br>每秒Золото+等级<br>出门随机一个Z级装备"
+	"store_shopmall_28"		"Королевские привилегии"
+	"store_shopmall_28_desc"	"Базовый предел HP +1<br>Улучшить все атрибуты +7<br>Очки сбора+70<br>Физ крит урон:+40%<br>Магический критический удар+40%<br>Изначально дает Благословение S-уровня.<br>Золото в секунду + уровень<br>Случайное снаряжение Z-уровня при выходе"
 
-	"store_shopmall_14"			"高级魔晶礼包"
-	"store_shopmall_14_desc"	"勇者进阶选择技能刷新次数+1<br>В начале игры奖励一个阿哈利姆魔晶Lv3"
+	"store_shopmall_14"			"Премиум пакет магических кристаллов"
+	"store_shopmall_14_desc"	"Храбрый продвинутый навык +1<br>В начале игры Магический кристалл Аганима лвл3"
 
 	"store_shopmall_201"		"Благословение силы"
-	"store_shopmall_201_desc"	"可以在冒险之力页面升级祝福"
+	"store_shopmall_201_desc"	"Благословения можно улучшить на странице «Сила приключений»."
 	"store_shopmall_202"		"Благословение ловкости"
-	"store_shopmall_202_desc"	"可以在冒险之力页面升级祝福"
+	"store_shopmall_202_desc"	"Благословения можно улучшить на странице «Сила приключений»."
 	"store_shopmall_203"		"Благословение интелекта"
-	"store_shopmall_203_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_204"		"生命祝福"
-	"store_shopmall_204_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_205"		"防御祝福"
-	"store_shopmall_205_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_206"		"体质祝福"
-	"store_shopmall_206_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_207"		"迅捷祝福"
-	"store_shopmall_207_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_208"		"智慧祝福"
-	"store_shopmall_208_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_209"		"Уменьшение физ дмг祝福"
-	"store_shopmall_209_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_210"		"Уменьшение маг урона祝福"
-	"store_shopmall_210_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_211"		"物理伤害祝福"
-	"store_shopmall_211_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_212"		"魔法伤害祝福"
-	"store_shopmall_212_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_213"		"伤害减免祝福"
-	"store_shopmall_213_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_214"		"Дополнительный урон祝福"
-	"store_shopmall_214_desc"	"可以在冒险之力页面升级祝福"
-	"store_shopmall_215"		"Финальный урон祝福"
-	"store_shopmall_215_desc"	"可以在冒险之力页面升级祝福"
+	"store_shopmall_203_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_204"		"Благословение жизни"
+	"store_shopmall_204_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_205"		"Благословение обороны"
+	"store_shopmall_205_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_206"		"Физическое благословение"
+	"store_shopmall_206_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_207"		"Благословение Стремительности"
+	"store_shopmall_207_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_208"		"Благословение мудрости"
+	"store_shopmall_208_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_209"		"Благословение уменьшения физического урона"
+	"store_shopmall_209_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_210"		"Благословение уменьшения маг урона"
+	"store_shopmall_210_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_211"		"Благословение физических повреждений"
+	"store_shopmall_211_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_212"		"Благословение магического урона"
+	"store_shopmall_212_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_213"		"Благословение уменьшения урона"
+	"store_shopmall_213_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_214"		"Благословение на дополнительный урон"
+	"store_shopmall_214_desc"	"Благословения можно улучшить на странице «Сила приключений»."
+	"store_shopmall_215"		"Благословение финального урона"
+	"store_shopmall_215_desc"	"Благословения можно улучшить на странице «Сила приключений»."
 
-	"store_shopmall_216"		"中级鱼竿"
-	"store_shopmall_216_desc"	"开局获得一柄中级鱼竿<br>高等级的鱼竿，会自动吞噬低等级的鱼竿，额外增加1%的暴击概率"
-	"store_shopmall_217"		"高级鱼竿"
-	"store_shopmall_217_desc"	"开局获得一柄高级鱼竿<br>高等级的鱼竿，会自动吞噬低等级的鱼竿，额外增加1%的暴击概率"
-	"store_shopmall_218"		"特级鱼竿"
-	"store_shopmall_218_desc"	"开局获得一柄特级鱼竿<br>高等级的鱼竿，会自动吞噬低等级的鱼竿，额外增加1%的暴击概率"
-	"store_shopmall_219"		"人级鱼竿"
-	"store_shopmall_219_desc"	"开局获得一柄人级鱼竿<br>高等级的鱼竿，会自动吞噬低等级的鱼竿，额外增加1%的暴击概率"
-	"store_shopmall_220"		"黄级鱼竿"
-	"store_shopmall_220_desc"	"开局获得一柄黄级鱼竿<br>高等级的鱼竿，会自动吞噬低等级的鱼竿，额外增加1%的暴击概率"
-	"store_shopmall_221"		"玄级鱼竿"
-	"store_shopmall_221_desc"	"开局获得一柄玄级鱼竿<br>高等级的鱼竿，会自动吞噬低等级的鱼竿，额外增加1%的暴击概率"
-	"store_shopmall_222"		"1级阿哈利姆祝福"
-	"store_shopmall_222_desc"	"开局奖励一个阿哈利姆魔晶лвл1"
-	"store_shopmall_223"		"2级阿哈利姆祝福"
-	"store_shopmall_223_desc"	"开局奖励一个阿哈利姆魔晶LV2"
-	"store_shopmall_224"		"3级阿哈利姆祝福"
-	"store_shopmall_224_desc"	"开局奖励一个阿哈利姆魔晶LV3"
-	"store_shopmall_225"		"4级阿哈利姆祝福"
-	"store_shopmall_225_desc"	"开局奖励一个阿哈利姆魔晶LV4"
-	"store_shopmall_226"		"5级阿哈利姆祝福"
-	"store_shopmall_226_desc"	"开局奖励一个阿哈利姆魔晶LV5"
-	"store_shopmall_227"		"6级阿哈利姆祝福"
-	"store_shopmall_227_desc"	"开局奖励一个阿哈利姆魔晶LV6"
+	"store_shopmall_216"		"Средняя удочка"
+	"store_shopmall_216_desc"	"Начните с удочки среднего уровня.<br>Удочки высокого уровня автоматически пожирают удочки низкого уровня, увеличивая дополнительный шанс критического удара на 1%"
+	"store_shopmall_217"		"Усовершенствованная удочка"
+	"store_shopmall_217_desc"	"Начните с удочки высокого уровня.<br>Удочки высокого уровня автоматически проглатывают удочки низкого уровня, увеличивая дополнительный шанс критического удара на 1%."
+	"store_shopmall_218"		"Удочка премиум-класса"
+	"store_shopmall_218_desc"	"В начале игры вы получите суперудочку.<br>Удочки высокого уровня автоматически проглатывают удочки низкого уровня, повышая шанс критического удара на 1%."
+	"store_shopmall_219"		"Человеческая удочка"
+	"store_shopmall_219_desc"	"Начните с удочки человеческого уровня.<br>Удочки высокого уровня автоматически проглатывают удочки низкого уровня, увеличивая дополнительный шанс критического удара на 1%."
+	"store_shopmall_220"		"Желтая удочка"
+	"store_shopmall_220_desc"	"Начните с удочки желтого уровня.<br>Удочки высокого уровня автоматически пожирают удочки низкого уровня, увеличивая дополнительный шанс критического удара на 1%."
+	"store_shopmall_221"		"Таинственная удочка"
+	"store_shopmall_221_desc"	"Начните с загадочной удочки<br>Удочки высокого уровня автоматически проглатывают удочки низкого уровня, увеличивая шанс критического удара на 1%."
+	"store_shopmall_222"		"1 Благословение Аганима"
+	"store_shopmall_222_desc"	"Награда: Кристалл Аганима 1ур"
+	"store_shopmall_223"		"2 Благословение Аганима"
+	"store_shopmall_223_desc"	"Награда: Кристалл Аганима 2ур"
+	"store_shopmall_224"		"3 Благословение Аганима"
+	"store_shopmall_224_desc"	"Награда: Кристалл Аганима 3ур"
+	"store_shopmall_225"		"4 Благословение Аганима"
+	"store_shopmall_225_desc"	"Награда: Кристалл Аганима 4ур"
+	"store_shopmall_226"		"5 Благословение Аганима"
+	"store_shopmall_226_desc"	"Награда: Кристалл Аганима 5ур"
+	"store_shopmall_227"		"6 Благословение Аганима"
+	"store_shopmall_227_desc"	"Награда: Кристалл Аганима 6ур"
 
 	"store_shopmall_228"		"Оборудование класса D -1"
 	"store_shopmall_228_desc"	"Случайное снаряжение уровня D будет выдано на старте."
@@ -3127,7 +3127,7 @@
 	"ui_email_btn_delete_all" "Удалить прочитанное"
 	
 	
-	// 通行证模块相关
+	// Пропуск模块相关
 	"ui_high_pass_check_unlock_btn"	"Разблокировать"
 	"ui_pass_check_task_week_title"	"Еженедельные задачи"
 	"ui_pass_check_task_day_title"	"Ежедневное задание"
@@ -3137,7 +3137,7 @@
 	"ui_pass_check_task_process_value"	"{s:finish}/{s:total}"
 	"ui_pass_check_task_score"	"+{s:value}"
 
-	//通行证图片提示
+	//Пропуск图片提示
 	"ui_normal_pass_check"	"Обычный проход"
 	"ui_high_pass_check"	"Высокий проход"
 	"ui_unlock_high_pass_check"	"Разблокировать высокие частоты"
@@ -3147,7 +3147,7 @@
 	"ui_pass_check_disstance_season"	"{s:day} дней {s:value} до начала сезона {s:season}"
 	"ui_pass_check_distance_season_end"	"{s:day} дней {s:value} до конца сезона {s:season}"
 
-	//通行证任务
+	//Пропуск任务
 	"pass_check_kill_task_title"	"Задача-убить"
 	"pass_check_week_kill_task_desc"	"Убить<font color='yellow'>{s:units}</font> <font color='white'>{s:value}</font>раз на этой неделе"
 	"pass_check_day_kill_task_desc"	"Убить<font color='yellow'>{s:units}</font> <font color='white'>{s:value}</font>раз сегодня"
@@ -3166,7 +3166,7 @@
 	"pass_other_sdsltcs" "Розыгрыш лотереи по количеству убийств"
 	"pass_other_hsjfltcs" "Розыгрыш очков сбора"
 	"pass_other_pass" "Пройти"
-	//通行证领取提示
+	//Пропуск领取提示
 	"ui_all_pass_has_received"	"Все награды получены"
 	"ui_receive_pass_reward_success"	"Успешно получено"
 	"ui_receive_pass_reward_failed"	"Не удалось запросить"
@@ -3506,7 +3506,7 @@
 
 
 	"collection_lottery_result_desc"	"Благословения можно улучшить на странице Сила приключений"
-	"collection_level" "Лвл{s:lvl}"
+	"collection_level" "Лвл{s:лвлl}"
 	"collection_pieces_count" "x{s:count}"
 	"collection_pieces_title" "Осколки"
 	"ui_collection_btn_upgrade" "Обновить"
@@ -3518,7 +3518,7 @@
 	"ui_collectio_tooltip_total" "Сумма, необходимая для обновления"
 
 	"ui_collection_upgrade_title" "Пожалуйста, введите количество для обновления"
-	"ui_collection_upgrade_tips" "Обновление до:<font color=\"#dfdbab\">Лвл{s:lvl}( {s:pct}% )</font>"
+	"ui_collection_upgrade_tips" "Обновление до:<font color=\"#dfdbab\">Лвл{s:лвлl}( {s:pct}% )</font>"
 
 	"ui_collection_detail_title"	"({s:name})Прогресс сбора иллюстраций"
 
