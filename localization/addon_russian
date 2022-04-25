@@ -355,7 +355,7 @@
 	"ui_large_number_unit_2"	"亿"
 	"ui_popup_tooltip"	"【ESC】或【очков击任意位置】关闭弹窗"
 	"info_equip_faild_samename"	"同名装备只能装备一件"
-	"info_equip_faild_лвлllimite"	"历练等级不足"
+	"info_equip_faild_lvllimite"	"历练等级不足"
 	"item_drop_recyle_auto_hsjf"	"自动回收物品，获得{s:value}Очки сбора"
 	"item_drop_recyle_auto_gold"	"自动回收物品，获得{s:value}Золото"
 
@@ -548,7 +548,7 @@
 	"ui_equip_selection_title"	"请选择本局初始成长装备"
 	"ui_growequip_cannot_eat" "装备等级未满，不能吞噬"
 	"ui_growequip_eated" "只能吞噬一件装备"
-	"ui_growitem_tooltips" "再击杀{s:value}个升级到лвл{s:level}"
+	"ui_growitem_tooltips" "再击杀{s:value}个升级到LV{s:level}"
 	"ui_growitem_max_tooltips" "双击吞噬，每个人只能吞噬一件装备"
 
 
@@ -1244,17 +1244,17 @@
 	"ui_random_item_tooltip_recast_count"	"重铸次数：{s:count}"
 	"ui_random_item_tooltip_special_desc" "基础属性提升<font color='#e7e0b7'>{s:value}%</font><Panel class='AttrRange' />"
 	"ui_netequip_ability_level_title" "技能等级："
-	"ui_netequip_ability_level" "{s:лвлl}"
+	"ui_netequip_ability_level" "{s:lvl}"
 	"ui_netequip_refine_times_title" "洗练："
 	"ui_netequip_refine_times" "{s:refinetimes}/10"
 	"ui_netequip_recast_times_title" "重铸："
 	"ui_netequip_recast_times" "{s:recasttimes}/10"
 
-	"ui_netequip_special_лвлl_1" "普通"
-	"ui_netequip_special_лвлl_2" "星级"
-	"ui_netequip_special_лвлl_3" "月级"
-	"ui_netequip_special_лвлl_4" "恒星级"
-	"ui_netequip_special_лвлl_5" "黑洞级"
+	"ui_netequip_special_lvl_1" "普通"
+	"ui_netequip_special_lvl_2" "星级"
+	"ui_netequip_special_lvl_3" "月级"
+	"ui_netequip_special_lvl_4" "恒星级"
+	"ui_netequip_special_lvl_5" "黑洞级"
 
 	"ui_net_equip_quality_7" "SSS"
 	"ui_net_equip_quality_6" "SS"
@@ -1264,7 +1264,7 @@
 	"ui_net_equip_quality_2" "C"
 	"ui_net_equip_quality_1" "D"
 
-	"ui_netequip_enhance_лвлl" "+{s:level}"
+	"ui_netequip_enhance_lvl" "+{s:level}"
 
 	"ui_attribute_net_equips_title"	"存档装备"
 	"ui_attribute_net_equips_title_desc"	"存档装备永久存在，每局游戏都生效。"
@@ -1523,7 +1523,7 @@
 	"ui_personal_main_title_invite"	"邀请"
 	"ui_personal_main_title_email"	"邮件"
 	
-	"ui_personal_main_account_лвлl"	"{s:лвлl}"
+	"ui_personal_main_account_lvl"	"{s:lvl}"
 	"ui_personal_main_account_steamid"	"ID:{s:id}"
 
 	"ui_personal_main_account_charge"	"充值"
@@ -1543,7 +1543,7 @@
 	"game_zxj_desc" "诛仙决是302旗下的一款修仙类防守地图，欢迎下载体验"
 
 
-	"ui_personal_лвлl_tooltip"	"会员等级"
+	"ui_personal_lvl_tooltip"	"会员等级"
 	"ui_personal_point_tooltip"	"会员积分，充值获得，可用于兑换道具或商城抽奖"
 	"ui_personal_id_copy_tooltip"	"复制ID"
 	"ui_personal_charge_tooltip"	"获取Камень науки"
@@ -1575,7 +1575,7 @@
 	"ui_achivement_type_kill" "杀戮之路"
 	"ui_achivement_type_hidden" "隐藏成就"
 
-	"ui_achivement_difficulty_desc" "通关{s:лвлl}"
+	"ui_achivement_difficulty_desc" "通关{s:lvl}"
 	"ui_achivement_difficulty_mode_desc" "+{s:mode}模式"
 	"ui_personal_vip_level_howtoget" "一时氪一时爽，一直氪一直爽"
 
@@ -1592,8 +1592,8 @@
 	"ui_achievement_herotype_int" "Интеллект"
 	"ui_achievement_herotype_other" "其它"
 
-	"ui_achievement_hero_лвлl" "Лвл {s:лвлl}"
-	"ui_achievement_hero_adder_лвлl" "当前等级：<font color=\"#dedede\">{s:лвлl}</font>"
+	"ui_achievement_hero_lvl" "Лвл {s:lvl}"
+	"ui_achievement_hero_adder_lvl" "当前等级：<font color=\"#dedede\">{s:lvl}</font>"
 
 
 	"ui_achievement_hero_generalexp_tips" "Универсальный опыт героя，可用于提高英雄的熟练度"
@@ -1601,10 +1601,10 @@
 	"ui_achievement_hero_adder_title" "请输入要升级的"
 	"ui_general_exp_name" "通用经验"
 	"ui_achievement_hero_add_button" "确定"
-	"ui_achivement_hero_reward_desc" "等级{s:лвлl}"
+	"ui_achivement_hero_reward_desc" "等级{s:lvl}"
 	"ui_achievement_hero_reward_title" "成长奖励"
 	"ui_achievement_kill_reward_title"	"（{s:name}）杀戮等阶奖励"
-	"ui_achivement_kill_reward_desc"	"击杀{s:лвлl}"
+	"ui_achivement_kill_reward_desc"	"击杀{s:lvl}"
 	"ui_achivement_hidden_empty" "暂未解锁隐藏成就"
 
 	"reward_attribute_pm_detail"	"Основной атрибут：<font color=\"#e0e0e0\">+{s:value}</font>"
@@ -2633,7 +2633,7 @@
 	"store_shopmall_28_desc"	"Базовый предел HP +1<br>Улучшить все атрибуты +7<br>Очки сбора+70<br>Физ крит урон:+40%<br>Магический критический удар+40%<br>Изначально дает Благословение S-уровня.<br>Золото в секунду + уровень<br>Случайное снаряжение Z-уровня при выходе"
 
 	"store_shopmall_14"			"Премиум пакет магических кристаллов"
-	"store_shopmall_14_desc"	"Храбрый продвинутый навык +1<br>В начале игры Магический кристалл Аганима лвл3"
+	"store_shopmall_14_desc"	"Храбрый продвинутый навык +1<br>В начале игры Магический кристалл Аганима Lv3"
 
 	"store_shopmall_201"		"Благословение силы"
 	"store_shopmall_201_desc"	"Благословения можно улучшить на странице «Сила приключений»."
@@ -3506,7 +3506,7 @@
 
 
 	"collection_lottery_result_desc"	"Благословения можно улучшить на странице Сила приключений"
-	"collection_level" "Лвл{s:лвлl}"
+	"collection_level" "Лвл{s:lvl}"
 	"collection_pieces_count" "x{s:count}"
 	"collection_pieces_title" "Осколки"
 	"ui_collection_btn_upgrade" "Обновить"
@@ -3518,7 +3518,7 @@
 	"ui_collectio_tooltip_total" "Сумма, необходимая для обновления"
 
 	"ui_collection_upgrade_title" "Пожалуйста, введите количество для обновления"
-	"ui_collection_upgrade_tips" "Обновление до:<font color=\"#dfdbab\">Лвл{s:лвлl}( {s:pct}% )</font>"
+	"ui_collection_upgrade_tips" "Обновление до:<font color=\"#dfdbab\">Лвл{s:lvl}( {s:pct}% )</font>"
 
 	"ui_collection_detail_title"	"({s:name})Прогресс сбора иллюстраций"
 
