@@ -3695,6 +3695,6 @@
 		"DOTA_Tooltip_modifier_item_net_4_47_buff"	"奥术洪流"
 		"DOTA_Tooltip_modifier_item_net_4_47_buff_Description"	"施法无CD"
 		"DOTA_Tooltip_modifier_item_net_4_50_buff"	"冰晶神盾"
-		"DOTA_Tooltip_modifier_item_net_4_50_buff_Description"	"神盾庇护,无敌"
+		"DOTA_Tooltip_modifier_item_net_4_50_buff_Description"	"神盾庇护,无敌 "
 	}
 }
