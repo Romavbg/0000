@@ -497,14 +497,21 @@
 
 	//equip map
 	"ui_collection_title"	"图鉴"
-	"ui_collection_category_1"	"装备"
-	"ui_collection_category_2"	"物品"
-	"ui_collection_type_1"	"普通装备"
-	"ui_collection_type_2"	"中级装备"
-	"ui_collection_type_3"	"高级装备"
+	"ui_collection_equip_1"	"普通装备"
+	"ui_collection_equip_2"	"高级装备"
+	"ui_collection_wild"	"野区物品"
+	"ui_collection_fish"	"渔区物品"
+	"ui_collection_herb"	"药区物品"
 	"ui_collection_collect_tooltip"	"每收集一件，额外增加{s:value}%野怪伤害"
 	"ui_collection_collect_progress_tooltip"	"收集进度"
 	"ui_collection_collect_ygsh_tooltip"	"额外野怪伤害"
+	"ui_collection_pct" "\%"
+	"ui_collection_equip_1_tooltip" "产出：乐透抽奖（金币乐透、杀敌乐透、积分乐透）或商城道具<br><br>对局内每获得一件装备，会获得额外的野外伤害加成"
+	"ui_collection_equip_2_tooltip" "产出：乐透抽奖（抽奖券抽奖）或商城道具<br><br>对局内每获得一件高级装备，会获得额外的野外伤害加成"
+	"ui_collection_wild_tooltip" "产出：野外区域小怪或Boss掉落<br><br>收集并服用它们可以快速成长"
+	"ui_collection_fish_tooltip" "产出：钓鱼产出，需要鱼竿和鱼饵。<br><br>工具人的最爱"
+	"ui_collection_herb_tooltip" "产出：种植区域产出，可用于增强人物属性。<br><br>据说可以产出大力丸"
+	"ui_collection_lock_tips" "暂未开放，敬请期待"
 
 	//item map
 	"ui_itemmap_title"	"消耗品图鉴"
@@ -815,6 +822,7 @@
 	"attribute_llyq_detail"	"力量源泉：<font color=\"#e0e0e0\">+{s:value}</font>"
 	"attribute_mjyq_detail"	"敏捷源泉：<font color=\"#e0e0e0\">+{s:value}</font>"
 	"attribute_zlyq_detail"	"智力源泉：<font color=\"#e0e0e0\">+{s:value}</font>"
+	"attribute_smyq_detail"	"生命源泉：<font color=\"#e0e0e0\">+{s:value}</font>"
 	"attribute_zjywsh_detail"	"中级野外伤害：<font color=\"#e0e0e0\">+{s:value}%</font>"
 	"attribute_zjywjs_detail"	"中级野外减伤：<font color=\"#e0e0e0\">+{s:value}%</font>"
 	"attribute_bosssh_detail"	"BOSS伤害：<font color=\"#e0e0e0\">+{s:value}%</font>"
@@ -934,6 +942,7 @@
 	"attribute_llyq_desc"	"每点力量源泉增加5%的英雄的力量技能伤害,每1级英雄等级额外提高5%的效果(技能不包括召唤类，生命类，攻击类技能)"
 	"attribute_mjyq_desc"	"每点敏捷源泉增加5%的英雄的敏捷技能伤害,每1级英雄等级额外提高5%的效果(技能不包括召唤类，生命类，攻击类技能)"
 	"attribute_zlyq_desc"	"每点智力源泉增加5%的英雄的智力技能伤害,每1级英雄等级额外提高5%的效果(技能不包括召唤类，生命类，攻击类技能)"
+	"attribute_smyq_desc"	"每点生命源泉增加5%的英雄的生命类技能伤害,每1级英雄等级额外提高5%的效果"
 	"attribute_fsxx_desc"	"法术吸血"
 	"attribute_mfjs_desc"	"魔法减伤"
 	"attribute_shhmbfb_desc"	"伤害豁免百分比"
@@ -1224,8 +1233,13 @@
 	"ui_warrior_tooltip_ability_lock"	"技能强化，领取奖励时自行选择"
 	"ui_warrior_tooltip_ability_none"	"无技能强化奖励"
 	"ui_warrior_tooltip_refresh_ability"	"消耗刷新次数，重新随机技能强化效果"
+	"ui_warrior_tooltip_refresh_ability_extend"	"消耗魔晶碎片获得额外的刷新次数<br><br>每局上限10次"
 
 	"ui_warrior_refresh_ability_error_1"	"刷新次数不足"
+	"ui_warrior_refresh_ability_error_2"	"魔晶碎片不足"
+	"ui_warrior_refresh_ability_error_3"	"本局魔晶碎片使用次数已达上限"
+	"ui_storehouse_consume_limit"	"本局使用次数已达上限"
+	"ui_storehouse_consume_cannot_use"	"非主动使用道具"
 
 	//Net Equip
 	"ui_random_item_tooltip_grade"	"{s:value}阶"
@@ -1256,6 +1270,9 @@
 	"ui_netequip_special_lvl_4" "恒星级"
 	"ui_netequip_special_lvl_5" "黑洞级"
 
+	"ui_net_equip_quality_10" "神器"
+	"ui_net_equip_quality_9" "仙器"
+	"ui_net_equip_quality_8" "Z"
 	"ui_net_equip_quality_7" "SSS"
 	"ui_net_equip_quality_6" "SS"
 	"ui_net_equip_quality_5" "S"
@@ -1481,6 +1498,19 @@
 	"modifier_item_net_4_39_Description"	"每次攻击有20%概率对目标造成(2+0.2*雷系数)*攻击力的物理伤害"
 	"modifier_item_net_4_40"	"木之力"
 	"modifier_item_net_4_40_Description"	"每过20S会在身边环绕一圈木盾,提供2*木系数的伤害减免,持续10s"
+
+	"modifier_item_net_4_47"	"奥术洪流"
+	"modifier_item_net_4_47_Description"	"每过30S,技能无冷却,持续5S"
+	"modifier_item_net_4_48"	"火焰祝福"
+	"modifier_item_net_4_48_Description"	"英雄升级时,火系数+0.5"
+
+	"modifier_item_net_4_50"	"冰晶神盾"
+	"modifier_item_net_4_50_Description"	"生命值低于30%时,获得冰晶护盾，无敌3.5S,CD：45S"
+
+	"modifier_item_net_4_51"	"轮回之力"
+	"modifier_item_net_4_51_Description"	"英雄复活时,基础属性+4%"
+	"modifier_item_net_4_52"	"剑之奥义"
+	"modifier_item_net_4_52_Description"	"每次攻击都会对目标造成6*剑系数*主属性的物理伤害"
 
 	"modifier_item_net_5_1"	"突破速度"
 	"modifier_item_net_5_1_Description"	 "使用突进有35%概率不疲劳。"
@@ -2594,16 +2624,16 @@
 
 
 	"store_shopmall_15"		"魔晶碎片"
-	"store_shopmall_15_desc"	"刷新消耗一次魔晶碎片，一局最多消耗10次"
+	"store_shopmall_15_desc"	"（被动）<br>刷新技能强化效果消耗一次魔晶碎片，每局最多消耗10次"
 
-	"store_shopmall_16"		"材料福佑"
-	"store_shopmall_16_desc"	"使用后，本局掉落掉落掉 1阶存档材料数量+50%"
+	"store_shopmall_16"		"一阶材料福佑"
+	"store_shopmall_16_desc"	"（主动）<br>使用后，本局掉落掉落掉 1阶存档材料数量+50%，每局最多使用一次"
 
-	"store_shopmall_17"		"图鉴福佑"
-	"store_shopmall_17_desc"	"使用后，本局掉落掉落掉 1阶存档BOSS图鉴数量+50%"
+	"store_shopmall_17"		"二阶材料福佑"
+	"store_shopmall_17_desc"	"（主动）<br>使用后，本局掉落掉落掉 2阶存档材料数量+50%，每局最多使用一次"
 
 	"store_shopmall_18"		"装备福佑"
-	"store_shopmall_18_desc"	"使用后，野外1阶存档BOSS掉落装备品质提升+50%"
+	"store_shopmall_18_desc"	"（主动）<br>使用后，野外1阶存档BOSS掉落装备品质提升+50%"
 
 	"store_shopmall_20"		"冒险钥匙"
 	"store_shopmall_20_desc"	"可用于开启宝藏，获得成长属性加成活着稀有道具"
