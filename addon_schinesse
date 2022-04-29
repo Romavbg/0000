@@ -1897,7 +1897,7 @@
 		"DOTA_Tooltip_modifier_lottery_9_11"	"苍灵羽"
 		"DOTA_Tooltip_modifier_lottery_9_11_Description"	"移动速度+10%%<br/>闪避+30%%<br/>复活时间-1s"
 		"DOTA_Tooltip_modifier_lottery_9_12"	"传国玉玺"
-		"DOTA_Tooltip_modifier_lottery_9_12_Description"	"经验加成+10%%<br/>金钱加成+10%%<br/>回收积分+10%%<br/>杀敌加成+10%%"
+		"DOTA_Tooltip_modifier_lottery_9_12_Description"	"经验加成+30%%<br/>金钱加成+30%%<br/>回收积分+30%%<br/>杀敌加成+30%%"
 		"DOTA_Tooltip_modifier_lottery_10_1"	"如意金箍棒"
 		"DOTA_Tooltip_modifier_lottery_10_1_Description"	"基础攻击力+100%%<br/>物理暴击概率+5%%<br/>攻击命中目标有20%%概率造成3*攻击力的物理伤害"
 		"DOTA_Tooltip_modifier_lottery_10_2"	"降妖宝杖"
