@@ -1897,7 +1897,7 @@
 		"DOTA_Tooltip_modifier_lottery_9_11"	"Изгибающееся перо"
 		"DOTA_Tooltip_modifier_lottery_9_11_Description"	"Скорость передвижения+10%%<br/>Уклонение +30%%<br/>Время воскрешения -1с"
 		"DOTA_Tooltip_modifier_lottery_9_12"	"Нефритовая печать"
-		"DOTA_Tooltip_modifier_lottery_9_12_Description"	"Бонус к опыту+10%%<br/>Денежный бонус+10%%<br/>очки восстановления+10%%<br/>Бонус за убийство +10%%"
+		"DOTA_Tooltip_modifier_lottery_9_12_Description"	"Бонус к опыту+30%%<br/>Денежный бонус+30%%<br/>очки восстановления+30%%<br/>Бонус за убийство +30%%"
 		"DOTA_Tooltip_modifier_lottery_10_1"	"ЗоЛотереие кольцо"
 		"DOTA_Tooltip_modifier_lottery_10_1_Description"	"базовая сила атаки+200%%<br/>Шанс физ. крит. удара+5%%<br/>Атака поражает цель с вероятностью 20%% наносит физический урон, равный 3*силе атаки"
 		"DOTA_Tooltip_modifier_lottery_10_2"	"Посох истребителя демонов"
